@@ -191,7 +191,8 @@ with st.sidebar:
 
     st.markdown("---")
     st.caption(
-        f"Model: Gradient Boosting Regressor · {len(bundle['all_targets'])} components\n\n"
+        #f"Model: Gradient Boosting Regressor · {len(bundle['all_targets'])} components\n\n"#
+        f"Model: GB · {len(bundle['all_targets'])} components\n\n"
         f"Trained on {bundle['training_rows']:,} synthetic samples, "
         f"validated on {bundle['test_rows']:,}."
     )
@@ -208,7 +209,7 @@ if run:
 
 st.markdown("""
 <div class="app-header">
-    <h1>🏭 Boiler Component Weight Estimator</h1>
+    <h1>⚡ Boiler Component Weight Estimator</h1>
     <div class="app-subtitle">
         Machine Learning based weight estimation for conceptual & proposal engineering ·
         Preliminary costing, transport planning & procurement support.
