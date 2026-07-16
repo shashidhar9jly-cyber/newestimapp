@@ -503,10 +503,8 @@ st.markdown(
     #'engineering-assumption-based dataset (see Phase 1 documentation). Treat outputs as conceptual-stage '
     #'planning figures only — validate against vendor quotations and detailed engineering before committing '
     #'to procurement, transport, or cost decisions.</div>',
-    '<div class="disclaimer">'
-    'This application provides conceptual weight estimates based on machine learning models trained on '
+    '<div class="disclaimer">This application provides conceptual weight estimates based on machine learning models trained on '
     'historical engineering data. The predicted values are intended solely for preliminary engineering '
-    'studies, budgetary costing, logistics planning, proposal preparation, and procurement estimation.'
-    '</div>'
+    'studies, budgetary costing, logistics planning, proposal preparation, and procurement estimation.</div>',
     unsafe_allow_html=True,
 )
