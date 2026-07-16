@@ -1,0 +1,15 @@
+# Exact versions used to build this app (Phase 1 dataset generation +
+# Phase 2 model training). Pinned deliberately, not ranged — this project
+# ships a pre-trained .joblib model file, so the environment that loads it
+# should match as closely as possible to avoid the scikit-learn version
+# mismatch issue seen on first deployment. Python version: 3.12.3 (see
+# runtime.txt). If you retrain from scratch in a different environment,
+# these pins can be relaxed, since train_model.py's live-retrain fallback
+# in app.py does not depend on exact version matches.
+
+streamlit==1.59.1
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+joblib==1.5.3
+plotly==6.9.0
