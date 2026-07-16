@@ -212,8 +212,7 @@ st.markdown("""
     <div class="app-subtitle">
         Machine Learning based weight estimation for conceptual & proposal engineering ·
         Preliminary costing, transport planning & procurement support.
-        Disclaimer: This tool provides conceptual weight estimates for preliminary engineering, costing, and planning purposes only.
-        Developed for EQPOWER; all estimates should be independently verified before use for detailed engineering, fabrication, procurement, or contractual decisions.
+        Disclaimer:  Developed for EQPOWER as a proof of concept ;Not for prodcution.
     </div>
 </div>
 """, unsafe_allow_html=True)
