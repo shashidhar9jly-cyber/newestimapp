@@ -210,8 +210,10 @@ st.markdown("""
 <div class="app-header">
     <h1>🏭 Boiler Component Weight Estimator</h1>
     <div class="app-subtitle">
-        Gradient Boosting-based weight estimation for conceptual & proposal engineering ·
-        Preliminary costing, transport planning & procurement support
+        Machine Learning based weight estimation for conceptual & proposal engineering ·
+        Preliminary costing, transport planning & procurement support.
+        Disclaimer: This tool provides conceptual weight estimates for preliminary engineering, costing, and planning purposes only.
+        Developed for EQPOWER; all estimates should be independently verified before use for detailed engineering, fabrication, procurement, or contractual decisions.
     </div>
 </div>
 """, unsafe_allow_html=True)
